@@ -87,7 +87,7 @@ resource"azurerm_windows_virtual_machine""vm" {
  location            = azurerm_resource_group.zarmina-rg.location
  size                = "Standard_B1s"
  admin_username      ="Zarmina"
- admin_password      ="Aspire2Aspire2"
+ admin_password      ="Aspire2100"
  network_interface_ids =[
    azurerm_network_interface.nic.id,
  ]
